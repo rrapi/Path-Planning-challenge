@@ -1,6 +1,11 @@
 # Path-Planning-challenge
 N-link Robot that reaches M waypoints with Inverse Kinematics
 
+This program could fit different types of manipulators just by editing the DH parameters (in this case I used the UR5e from the UNiverdal Robot)
+
+The aim is to reach different waypoints (specified in a document where each line is a 3D point and each coordinate is separated by space) by limiting the end-effecor to pass a certain "bound region" and moving each time of "step" size (for example 10 cm). The eef reach each waypoint with x-axis parallel to the segment from actual pose to the next waypoint.
+
+The reult of the simulation test are shown in the "results" folder.
 
 
 ## Simulation Test
