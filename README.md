@@ -8,7 +8,9 @@ N-link Robot that reaches M waypoints with Inverse Kinematics
     python3 src/test.py --filename=<input_file> --bound_region=<bound_limit> --step=<step_move> --plot=<True/False>
     
 
+    
     python3 src/test.py --filename='waypoints.txt' --bound_region=0.15 --step=0.1 --plot=True
+
     
 <input_file>:       waypoints input list file path
 
